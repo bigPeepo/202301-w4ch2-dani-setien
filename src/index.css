@@ -1,3 +1,15 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 body {
-  margin: 0;
+  padding-top: 30px;
+}
+.gif {
+  max-width: 100%;
+  margin-top: 100px;
+}
+.error {
+  display: none;
+}
+.error.on {
+  display: block;
 }
